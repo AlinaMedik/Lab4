@@ -6,3 +6,8 @@ main.o: main.c
 
 sum.o: sum.c
 	gcc -Wall -c sum.c
+
+
+.PHONY: clean
+clean:
+	rm -f sum *.o
